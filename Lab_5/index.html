@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css.css" />
+    <script src="js.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <div id="reg">
+        <form id="form1" class="col" onsubmit="return Submit()">
+          <label for="fname">First Name</label>
+          <input id="fname" type="text" placeholder="First Name" required />
+          <label for="lname">Last Name</label>
+          <input id="lname" type="text" placeholder="Last Name" required />
+          <label for="email">Email</label>
+          <input id="email" type="text" placeholder="Email" required />
+          <label for="pass">Password</label>
+          <input id="pass" type="password" placeholder="Password" required />
+          <label for="phone">Phone</label>
+          <input
+            id="phone"
+            type="number"
+            accept="+"
+            placeholder="Phone"
+            required
+          />
+          <label for="add">Address</label>
+          <input id="add" type="text" placeholder="Address" required />
+          <br /><br />
+          <hr />
+          <button form="form1" type="button" onclick="clickDuke()">
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

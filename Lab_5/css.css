@@ -1,0 +1,54 @@
+#root {
+    align-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+    padding: auto;
+}
+
+#reg {
+    width: 800px;
+    border: 0px solid grey;
+    box-shadow: 0px 5px 9px gray;
+    border-radius: 15px;
+    padding: 50px;
+    margin: auto;
+}
+.flex {
+    display: flex;
+    padding-left: 40xp;
+    background-color: DodgerBlue;
+  }
+  
+  .col {
+    width: auto;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 10px;
+  }
+  .col > label {
+    display: block;
+    border: 0px solid grey;
+    text-shadow: 0px 1px 2px gray;
+  }
+  .col > input {
+    line-height: 2rem;
+    width: 500px;
+    padding-left: 10px;
+    border: 0px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 5px 9px gray;
+  }
+
+  button {
+    background-color: green;
+    color: aliceblue;
+    border: 0px solid grey;
+    border-radius: 5px;
+    box-shadow: 0px 5px 9px gray;
+    padding: 15px;
+  }
+
+  button:hover {
+    background-color: rgb(1, 94, 1);
+  }
